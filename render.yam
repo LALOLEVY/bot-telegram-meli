@@ -3,6 +3,6 @@ services:
     name: bot-telegram-meli
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "python app.py"
+    startCommand: "python3 app.py"  # Cambié 'python' por 'python3'
 environment: python
 pythonVersion: "3.11"
