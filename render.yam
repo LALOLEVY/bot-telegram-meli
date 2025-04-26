@@ -1,8 +1,1 @@
-services:
-  - type: web
-    name: bot-telegram-meli
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python3 app.py"
-    plan: free
-    region: us
+runtime: python3.11
