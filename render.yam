@@ -3,6 +3,6 @@ services:
     name: bot-telegram-meli
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "python main.py"
+    startCommand: "python3 app.py"
     plan: free
     region: oregon
